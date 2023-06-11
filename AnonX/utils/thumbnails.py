@@ -127,10 +127,10 @@ async def gen_thumb(videoid, user_id):
         try:
             draw.text(
                 (450, 25),
-                f"PLAYING ON DORA",
+                f"YUKKI PLAYING",
                 fill="white",
                 stroke_width=3,
-                stroke_fill="pink",
+                stroke_fill="red",
                 font=font,
             )
             if para[0]:
@@ -268,7 +268,7 @@ async def gen_qthumb(videoid, user_id):
         try:
             draw.text(
                 (455, 25),
-                "NEXT COMING BABY",
+                "ADDED TO QUEUE",
                 fill="white",
                 stroke_width=5,
                 stroke_fill="black",
