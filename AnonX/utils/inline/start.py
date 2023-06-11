@@ -38,13 +38,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/pirok
     buttons = [
         [
             InlineKeyboardButton(
-                text="✯ ᴍᴀᴋᴇ ᴍᴇ ʏᴏᴜʀ ɢғ ✯",
-                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                text="✯ ᴄᴏᴍᴍᴀɴᴅs ✯", callback_data="settings_back_helper"   
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄᴏᴍᴍᴀɴᴅs ✯", callback_data="settings_back_helper"
+                text="✯ ᴍᴀᴋᴇ ᴍᴇ ʏᴏᴜʀ ɢғ ✯",
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",  
             ),
         ],
         [
