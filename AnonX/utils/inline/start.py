@@ -42,20 +42,20 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/pirok
             ),
         ],
         [
-           InlineKeyboardButton(text="", url=f"https://t.me/NOOBXCREATOR"),
+           InlineKeyboardButton(text="📨 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/NOOBXCREATOR"),
             InlineKeyboardButton(
-                text="✯ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"{config.SUPPORT_GROUP}"   
+                text="📨 sᴜᴘᴘᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"   
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴍᴀᴋᴇ ᴍᴇ ʏᴏᴜʀ ɢғ ✯",
+                text="ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="✯ ɢɪғᴛ ʜᴇʀᴇ ✯", url=f"https://t.me/pirokid"
+                    text="👤 ʙᴏᴛ ᴏᴡɴᴇʀ", url=f"https://t.me/pirokid"
                 )
         ],
      ]
