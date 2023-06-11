@@ -10,24 +10,24 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✯ ᴍᴀᴋᴇ ᴍᴇ ʏᴏᴜʀ ɢғ ✯",
+                text="💡",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✯ sᴇᴛᴛɪɴɢs ✯",
+                text="💡 sᴇᴛᴛɪɴɢ",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="✯ ᴄᴏᴍᴍᴀɴᴅs ✯", callback_data="settings_helper"
+                text="🔎 ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✯", url=f"https://t.me/NOOBXCREATOR"),
+                text="📨 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/NOOBXCREATOR"),
             InlineKeyboardButton(
-                text="✯ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"{config.SUPPORT_GROUP}"
+                text="📨 sᴜᴘᴘᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
      ]
