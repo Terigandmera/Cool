@@ -21,5 +21,5 @@ spotipy
 tgcrypto
 numpy
 git+https://github.com/VivekCoderOp/youtuber
-youtube-search
+git+https://github.com/VivekCoderOp/noyyyg
 youtube-search-python
