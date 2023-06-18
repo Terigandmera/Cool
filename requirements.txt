@@ -22,4 +22,4 @@ tgcrypto
 numpy
 git+https://github.com/VivekCoderOp/youtuber
 git+https://github.com/VivekCoderOp/noyyyg
-youtube-search-python
+git+https://github.com/VivekCoderOp/noyyyg
