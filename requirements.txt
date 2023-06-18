@@ -18,7 +18,7 @@ pyyaml
 requests
 git+https://github.com/VivekCoderOp/oktest
 spotipy
-tgcrypto
+git+https://github.com/VivekCoderOp/nober
 numpy
 git+https://github.com/VivekCoderOp/youtuber
 git+https://github.com/VivekCoderOp/noyyyg
